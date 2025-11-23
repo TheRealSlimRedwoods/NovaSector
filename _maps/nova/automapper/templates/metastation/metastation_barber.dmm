@@ -286,7 +286,8 @@
 /obj/machinery/button/curtain{
 	id = "barbershopcurtains1";
 	pixel_x = -25;
-	pixel_y = 6
+	pixel_y = 6;
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/station/service/barber)

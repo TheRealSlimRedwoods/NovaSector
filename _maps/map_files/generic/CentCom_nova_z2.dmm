@@ -4505,7 +4505,8 @@
 	dir = 8
 	},
 /obj/structure/sign/painting/library{
-	pixel_x = -32
+	pixel_x = -32;
+	dir = 8
 	},
 /obj/machinery/light/directional/west,
 /obj/structure/closet/secure_closet/personal/cabinet{
