@@ -196,11 +196,6 @@
 /obj/item/clothing/head/helmet/space/eva,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/engineering/n_solars_control)
-"dR" = (
-/obj/structure/lattice,
-/obj/machinery/light/small/directional/west,
-/turf/template_noop,
-/area/ruin/space/bb13/research)
 "dT" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/airless,
@@ -257,11 +252,6 @@
 /obj/structure/frame/machine,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service)
-"eO" = (
-/obj/structure/lattice,
-/obj/structure/chair,
-/turf/template_noop,
-/area/ruin/space/bb13/security)
 "eS" = (
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/engineering/sec_eng)
@@ -315,6 +305,11 @@
 "fR" = (
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/service/chapel)
+"fT" = (
+/obj/structure/reagent_dispensers/watertank/high,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/service/botany)
 "fW" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/plating/airless,
@@ -387,6 +382,10 @@
 /obj/structure/frame/machine/secured,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
+"hr" = (
+/obj/structure/girder,
+/turf/template_noop,
+/area/space/nearstation)
 "hv" = (
 /obj/structure/frame/computer{
 	anchored = 1;
@@ -420,6 +419,11 @@
 "id" = (
 /turf/template_noop,
 /area/ruin/space/bb13/research)
+"ie" = (
+/obj/structure/table,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/medical)
 "ih" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -586,10 +590,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
-"jq" = (
-/obj/machinery/vending/hydroseeds,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/service/botany)
 "jv" = (
 /obj/structure/cable,
 /obj/machinery/power/terminal,
@@ -637,17 +637,6 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/engineering/engine)
-"kf" = (
-/obj/structure/rack,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/obj/item/stock_parts/power_store/cell/high,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/hallway/central)
 "kh" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/iron/airless,
@@ -746,7 +735,7 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/research)
-"lX" = (
+"lY" = (
 /obj/structure/table_frame,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
@@ -918,11 +907,6 @@
 /obj/structure/reagent_dispensers/fueltank/large,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/engineering/engine)
-"oS" = (
-/obj/structure/table,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/medical)
 "oZ" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/airless,
@@ -966,6 +950,11 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
+"pL" = (
+/obj/structure/lattice,
+/obj/structure/chair,
+/turf/template_noop,
+/area/ruin/space/bb13/security)
 "pM" = (
 /turf/closed/wall/r_wall,
 /area/ruin/space/bb13/medical/genetics)
@@ -1102,12 +1091,6 @@
 /obj/item/bodypart/chest/monkey,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/medical/genetics)
-"rs" = (
-/obj/structure/rack,
-/obj/effect/spawner/random/maintenance,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/security)
 "ru" = (
 /obj/machinery/door/window/right/directional/south,
 /obj/effect/mapping_helpers/broken_floor,
@@ -1161,6 +1144,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/research/toxins)
+"sd" = (
+/obj/structure/chair,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/security)
 "sf" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -1466,6 +1454,17 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/medical/genetics)
+"xp" = (
+/obj/structure/rack,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/obj/item/stock_parts/power_store/cell/high,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/hallway/central)
 "xu" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
@@ -1475,13 +1474,6 @@
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/hallway/central)
-"xx" = (
-/obj/structure/table,
-/obj/item/stock_parts/matter_bin,
-/obj/item/reagent_containers/cup/beaker/large,
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/research)
 "xy" = (
 /obj/structure/frame/machine/secured,
 /turf/open/floor/iron/airless,
@@ -1531,6 +1523,10 @@
 /obj/effect/spawner/structure/window/reinforced/plasma,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/engineering/atmos)
+"yv" = (
+/obj/machinery/vending/hydroseeds,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/service/botany)
 "yw" = (
 /obj/structure/cable,
 /turf/open/floor/iron/airless,
@@ -1940,11 +1936,13 @@
 /obj/effect/spawner/random/engineering/tool,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/service)
-"FE" = (
-/obj/structure/chair,
-/obj/machinery/light/small/directional/north,
+"Fy" = (
+/obj/structure/table,
+/obj/item/stock_parts/matter_bin,
+/obj/item/reagent_containers/cup/beaker/large,
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/airless,
-/area/ruin/space/bb13/security)
+/area/ruin/space/bb13/research)
 "FJ" = (
 /obj/machinery/door/airlock/engineering,
 /obj/effect/mapping_helpers/broken_floor,
@@ -2083,11 +2081,6 @@
 /obj/item/stack/sheet/glass,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/security)
-"HI" = (
-/obj/structure/reagent_dispensers/watertank/high,
-/obj/machinery/light/small/directional/north,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/service/botany)
 "HR" = (
 /turf/closed/wall,
 /area/ruin/space/bb13/medical/genetics)
@@ -2552,10 +2545,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/engineering/engine)
-"Po" = (
-/obj/structure/girder,
-/turf/template_noop,
-/area/space/nearstation)
 "Pz" = (
 /obj/structure/frame/machine/secured,
 /obj/machinery/light/small/directional/north,
@@ -2938,6 +2927,12 @@
 	color = "#FF8888"
 	},
 /area/ruin/space/bb13/engineering/vault)
+"VQ" = (
+/obj/structure/table,
+/obj/item/stock_parts/matter_bin,
+/obj/item/pai_card,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/research)
 "VR" = (
 /turf/template_noop,
 /area/ruin/space/bb13/hallway/central)
@@ -3046,12 +3041,6 @@
 /obj/structure/table,
 /turf/open/floor/plating/airless,
 /area/ruin/space/bb13/service/kitchen)
-"WU" = (
-/obj/structure/table,
-/obj/item/stock_parts/matter_bin,
-/obj/item/pai_card,
-/turf/open/floor/iron/airless,
-/area/ruin/space/bb13/research)
 "WY" = (
 /obj/structure/table,
 /obj/structure/cable,
@@ -3093,6 +3082,12 @@
 /obj/structure/frame/machine,
 /turf/open/floor/iron/airless,
 /area/ruin/space/bb13/medical)
+"XG" = (
+/obj/structure/rack,
+/obj/effect/spawner/random/maintenance,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/airless,
+/area/ruin/space/bb13/security)
 "XL" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/airless,
@@ -5043,7 +5038,7 @@ Ru
 km
 DH
 aX
-HI
+fT
 dY
 vq
 vq
@@ -5102,7 +5097,7 @@ yZ
 UF
 Pj
 RI
-oS
+ie
 bf
 en
 UF
@@ -5126,7 +5121,7 @@ vd
 sD
 vd
 Hc
-jq
+yv
 CF
 dY
 dY
@@ -5183,7 +5178,7 @@ yZ
 yZ
 yZ
 UF
-lX
+lY
 dy
 Wn
 Al
@@ -6288,7 +6283,7 @@ Pc
 Hv
 xm
 aI
-rs
+XG
 Gz
 aI
 Ui
@@ -6861,7 +6856,7 @@ VR
 VR
 yZ
 Ui
-FE
+sd
 kM
 Pc
 jj
@@ -6944,7 +6939,7 @@ UX
 VR
 yZ
 xm
-eO
+pL
 Pc
 CL
 Ui
@@ -7774,12 +7769,12 @@ Am
 ih
 gb
 iZ
-dR
+Lr
 Lc
 lE
 Yi
-xx
-WU
+Fy
+VQ
 Wh
 zr
 yZ
@@ -8581,7 +8576,7 @@ qE
 yZ
 US
 yZ
-Po
+hr
 zZ
 zZ
 zZ
@@ -8933,7 +8928,7 @@ KV
 mF
 wq
 By
-kf
+xp
 KV
 yZ
 nN
