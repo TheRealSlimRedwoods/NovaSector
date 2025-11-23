@@ -256,7 +256,6 @@
 /obj/item/clothing/mask/gas,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/light/directional/south,
-/obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/ferry)
 "yR" = (
@@ -395,6 +394,11 @@
 /obj/effect/turf_decal/tile/green{
 	dir = 1
 	},
+/turf/open/floor/iron,
+/area/centcom/central_command_areas/ferry)
+"Oc" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/status_display/evac/directional/south,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/ferry)
 "On" = (
@@ -603,8 +607,8 @@ iE
 iq
 uQ
 uQ
-ff
-pT
+Oc
+iE
 iE
 "}
 (10,1,1) = {"
