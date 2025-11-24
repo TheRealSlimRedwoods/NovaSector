@@ -2251,7 +2251,7 @@
 	id = "xenolock";
 	name = "Xeno Studies Lockdown Control";
 	pixel_x = 32;
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
