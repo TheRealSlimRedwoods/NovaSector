@@ -3042,6 +3042,16 @@
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/plating/abductor2,
 /area/awaymission/mothership_astrum/halls)
+"Rf" = (
+/obj/machinery/button/door{
+	id = "medsec";
+	name = "Medium Security Lock";
+	normaldoorcontrol = 1;
+	specialfunctions = 4;
+	pixel_x = 480
+	},
+/turf/open/floor/mineral/abductor,
+/area/awaymission/mothership_astrum/halls)
 "Rj" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
@@ -3223,16 +3233,6 @@
 /obj/structure/table/abductor,
 /obj/item/ammo_box/speedloader/c38,
 /turf/open/floor/plating/abductor2,
-/area/awaymission/mothership_astrum/halls)
-"TM" = (
-/obj/machinery/button/door{
-	id = "medsec";
-	name = "Medium Security Lock";
-	normaldoorcontrol = 1;
-	specialfunctions = 4;
-	pixel_y = 96
-	},
-/turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
 "TY" = (
 /obj/structure/alien/weeds,
@@ -24627,7 +24627,7 @@ Tu
 ee
 ee
 ee
-bV
+Rf
 bV
 bV
 Vh
@@ -28485,7 +28485,7 @@ bV
 zt
 aV
 bV
-TM
+bV
 ub
 Vc
 Vc
