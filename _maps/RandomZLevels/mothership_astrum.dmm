@@ -3048,7 +3048,8 @@
 	name = "Medium Security Lock";
 	normaldoorcontrol = 1;
 	specialfunctions = 4;
-	pixel_x = 480
+	pixel_x = 480;
+	dir = 8
 	},
 /turf/open/floor/mineral/abductor,
 /area/awaymission/mothership_astrum/halls)
