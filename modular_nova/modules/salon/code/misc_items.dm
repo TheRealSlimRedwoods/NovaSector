@@ -180,7 +180,7 @@
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/barber, 13)
 
-/obj/machinery/health_station/Initialize(mapload,ndir,building)
+/obj/structure/sign/barber/Initialize(mapload,ndir,building)
 	. = ..()
 	if(mapload)
 		find_and_mount_on_atom()
