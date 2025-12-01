@@ -16305,9 +16305,8 @@
 /obj/structure/cable,
 /obj/effect/turf_decal/bot,
 /obj/structure/closet/secure_closet/injection,
-/obj/machinery/camera/directional/west{
-	c_tag = "Security - Killcam";
-	name = "westCHANGEMETOEAST"
+/obj/machinery/camera/directional/east{
+	c_tag = "Security - Killcam"
 	},
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
@@ -21112,9 +21111,9 @@
 /area/station/medical/medbay/lobby)
 "eaR" = (
 /obj/machinery/disposal/bin,
-/obj/machinery/camera/directional/south{
+/obj/machinery/camera/directional/north{
 	c_tag = "Chapel - Entrance";
-	name = "chapel cameraCHANGEMETONORTH"
+	name = "chapel camera"
 	},
 /obj/structure/disposalpipe/trunk{
 	dir = 2
@@ -57028,10 +57027,8 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
 "kTK" = (
-/obj/machinery/camera/directional/south{
-	c_tag = "Security - Brig Far Port";
-	dir = 1;
-	name = "southCHANGEMETONORTH"
+/obj/machinery/camera/directional/north{
+	c_tag = "Security - Brig Far Port"
 	},
 /obj/machinery/light/directional/north,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -82839,9 +82836,8 @@
 	},
 /area/station/command/secure_bunker)
 "pUq" = (
-/obj/machinery/camera/directional/east{
-	c_tag = "Security - Perma Airlock";
-	name = "eastCHANGEMETOSOUTH"
+/obj/machinery/camera/directional/south{
+	c_tag = "Security - Perma Airlock"
 	},
 /turf/open/floor/iron/dark/side,
 /area/station/security/prison)
@@ -118591,9 +118587,8 @@
 /turf/open/floor/iron/white,
 /area/station/science/research)
 "wCw" = (
-/obj/machinery/camera/directional/south{
-	c_tag = "Courtroom - Holding Cell";
-	name = "southCHANGEMETONORTH"
+/obj/machinery/camera/directional/north{
+	c_tag = "Courtroom - Holding Cell"
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
