@@ -24320,12 +24320,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/maintenance/aft/upper)
-"heW" = (
-/obj/machinery/camera/xray/directional/south{
-	network = list("intd13")
-	},
-/turf/open/space/basic,
-/area/space)
 "hfb" = (
 /obj/machinery/computer/exoscanner_control{
 	dir = 4
@@ -84244,7 +84238,7 @@ laO
 laO
 laO
 laO
-heW
+laO
 laO
 laO
 laO
