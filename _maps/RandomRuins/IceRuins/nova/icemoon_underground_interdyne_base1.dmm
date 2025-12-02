@@ -6178,11 +6178,13 @@
 	},
 /area/ruin/interdyne_planetary_base/main)
 "pP" = (
-/obj/machinery/camera/autoname/directional/west{
-	pixel_x = 32;
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/camera/xray/directional/east{
 	network = list("intd13")
 	},
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/interdyne_planetary_base/main)
 "pQ" = (
 /obj/machinery/vending/boozeomat/syndicate{
@@ -6756,6 +6758,15 @@
 	initial_gas_mix = "ICEMOON_ATMOS"
 	},
 /area/icemoon/underground/explored)
+"vK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/obj/machinery/camera/xray/directional/east{
+	network = list("intd13")
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/interdyne_planetary_base/main)
 "vU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -6993,6 +7004,13 @@
 	},
 /turf/open/floor/stone,
 /area/ruin/interdyne_planetary_base/serv/hydr)
+"GA" = (
+/obj/machinery/duct,
+/obj/machinery/camera/xray/directional/north{
+	network = list("intd13")
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/interdyne_planetary_base/main)
 "GW" = (
 /obj/item/toy/figure/syndie,
 /turf/open/floor/plating/reinforced{
@@ -7228,13 +7246,15 @@
 /turf/open/floor/iron/smooth_large,
 /area/ruin/interdyne_planetary_base/main/dorms)
 "OK" = (
-/obj/machinery/camera/autoname/directional/west{
-	pixel_y = -10;
-	network = list("intd13");
-	pixel_x = 32
+/obj/structure/disposalpipe/segment{
+	dir = 5
 	},
-/turf/closed/wall/r_wall/plastitanium/syndicate/nodiagonal,
-/area/ruin/interdyne_planetary_base/cargo)
+/obj/machinery/duct,
+/obj/machinery/camera/xray/directional/south{
+	network = list("intd13")
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/interdyne_planetary_base/main)
 "Pg" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -8705,7 +8725,7 @@ dj
 dj
 cR
 qH
-eU
+GA
 eU
 eU
 gL
@@ -8713,7 +8733,7 @@ hA
 hY
 iq
 iq
-eX
+OK
 qI
 jm
 jL
@@ -9295,7 +9315,7 @@ em
 ez
 cW
 qI
-eZ
+vK
 fY
 fY
 hf
@@ -9303,7 +9323,7 @@ hG
 ii
 is
 fY
-iR
+pP
 qI
 jr
 hX
@@ -9354,7 +9374,7 @@ en
 eA
 cW
 fx
-pP
+fx
 fr
 Lg
 JE
@@ -9363,7 +9383,7 @@ Yw
 eb
 ik
 fx
-pP
+fx
 jr
 jr
 jr
@@ -9519,7 +9539,7 @@ rl
 aW
 br
 bI
-OK
+aG
 ci
 cw
 aW

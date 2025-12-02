@@ -24320,6 +24320,12 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/maintenance/aft/upper)
+"heW" = (
+/obj/machinery/camera/xray/directional/south{
+	network = list("intd13")
+	},
+/turf/open/space/basic,
+/area/space)
 "hfb" = (
 /obj/machinery/computer/exoscanner_control{
 	dir = 4
@@ -72593,8 +72599,7 @@
 "uYD" = (
 /obj/machinery/camera/directional/east{
 	c_tag = "Atmospherics - HFR Core South";
-	network = list("ss13","engine");
-	dir = 6
+	network = list("ss13","engine")
 	},
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos/hfr_room)
@@ -84239,7 +84244,7 @@ laO
 laO
 laO
 laO
-laO
+heW
 laO
 laO
 laO
